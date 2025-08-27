@@ -17,7 +17,6 @@ const Projects = () => {
         "Real-time predictions"
       ],
       github: "https://github.com/harshaRedE31",
-      demo: "#",
       color: "primary"
     },
     {
@@ -32,7 +31,6 @@ const Projects = () => {
         "Load balancing"
       ],
       github: "https://github.com/harshaRedE31",
-      demo: "#",
       color: "secondary"
     },
     {
@@ -47,7 +45,6 @@ const Projects = () => {
         "Configuration management"
       ],
       github: "https://github.com/harshaRedE31",
-      demo: "#",
       color: "accent"
     },
     {
@@ -62,7 +59,6 @@ const Projects = () => {
         "Alert notifications"
       ],
       github: "https://github.com/harshaRedE31",
-      demo: "#",
       color: "primary"
     }
   ];
@@ -126,26 +122,16 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div className="flex space-x-3">
+                <div className="flex justify-center">
                   <Button 
                     variant="outline" 
                     size="sm"
                     asChild
-                    className="flex-1 border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground"
+                    className="border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground"
                   >
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="w-4 h-4 mr-2" />
-                      Code
-                    </a>
-                  </Button>
-                  <Button 
-                    size="sm"
-                    asChild
-                    className="flex-1 bg-primary hover:bg-primary/90"
-                  >
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Demo
+                      View Code
                     </a>
                   </Button>
                 </div>
