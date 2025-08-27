@@ -23,8 +23,8 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="mb-8 relative inline-block">
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-glow-primary">
-              <img 
-                src={profileImage} 
+               <img 
+                src={`${profileImage}?t=${Date.now()}`} 
                 alt="Harshavardhan Reddy P - Cloud & DevOps Engineer" 
                 className="w-full h-full object-cover"
               />
