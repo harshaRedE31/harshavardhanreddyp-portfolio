@@ -104,8 +104,8 @@ const Skills = () => {
             {[
               { skill: "AWS", level: 85 },
               { skill: "Docker/K8s", level: 80 },
-              { skill: "React.js", level: 75 },
-              { skill: "Python", level: 82 }
+              { skill: "Kubernetes", level: 78 },
+              { skill: "Terraform", level: 82 }
             ].map((item, index) => (
               <div key={item.skill} className="text-center animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                 <div className="relative w-24 h-24 mx-auto mb-4">
