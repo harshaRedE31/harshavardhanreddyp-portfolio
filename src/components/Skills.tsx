@@ -103,7 +103,7 @@ const Skills = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { skill: "AWS", level: 85 },
-              { skill: "Docker/K8s", level: 80 },
+              { skill: "Docker", level: 80 },
               { skill: "Kubernetes", level: 78 },
               { skill: "Terraform", level: 82 }
             ].map((item, index) => (
