@@ -8,16 +8,25 @@ const Achievements = () => {
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services",
       icon: Cloud,
-      date: "2024",
+      date: "2025",
       status: "Certified",
       description: "Foundational understanding of AWS Cloud concepts, services, security, architecture, pricing, and support.",
       skills: ["Cloud Fundamentals", "AWS Services", "Security", "Billing & Pricing"]
     },
     {
+      title: "Google Cloud Engineering",
+      issuer: "Google Cloud",
+      icon: Cloud,
+      date: "2025",
+      status: "Completed",
+      description: "Google Cloud infrastructure, networking, and security through hands-on labs.",
+      skills: ["Core Infrastructure", "Networking", "Containers & Kubernetes", "IAM", "Monitoring and Logging"]
+    },
+    {
       title: "DevOps on AWS",
       issuer: "Amazon Web Services",
       icon: Cloud,
-      date: "2024",
+      date: "2025",
       status: "Completed",
       description: "Comprehensive training on DevOps practices and tools within the AWS ecosystem.",
       skills: ["CI/CD", "Infrastructure as Code", "Monitoring", "Automation"]
@@ -26,7 +35,7 @@ const Achievements = () => {
       title: "Fundamentals of Machine Learning & AI",
       issuer: "Amazon Web Services",
       icon: Brain,
-      date: "2024",
+      date: "2025",
       status: "Completed",
       description: "Understanding of ML concepts, AWS AI/ML services, and practical applications.",
       skills: ["Machine Learning", "AI Services", "Data Analysis", "Model Deployment"]
@@ -48,15 +57,6 @@ const Achievements = () => {
       status: "Certified",
       description: "Fundamental cybersecurity concepts, threat analysis, and security best practices.",
       skills: ["Security Fundamentals", "Threat Analysis", "Risk Management", "Compliance"]
-    },
-    {
-      title: "Sensor Application Development",
-      issuer: "RVCE",
-      icon: Cpu,
-      date: "2022",
-      status: "Completed",
-      description: "IoT sensor integration, data collection, and application development.",
-      skills: ["IoT", "Sensor Integration", "Data Collection", "Embedded Systems"]
     }
   ];
 
